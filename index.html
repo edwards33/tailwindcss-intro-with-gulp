@@ -1,0 +1,76 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>tailwind and components</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1 class="text-red bg-grey-lighter p-8 mt-8">Tailwind CSS</h1>
+
+  <section class="
+                  py-32 
+                  bg-purple-lightest
+                  bg-purple-lighter
+                  sm:bg-pink-light
+                  md:bg-green
+                  lg:bg-blue
+  ">
+
+    <div class="container mx-auto px-6">
+
+      <h2 class="text-purple-darker mt-0 mb-3 leading-tight">
+        Nisl nisi scelerisque eu ultrices
+      </h2>
+
+      <p class="text-purple-darker">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum laborum quo provident consectetur eveniet et quidem eos molestias minus nulla fugiat.
+      </p>
+
+    </div>
+
+  </section>
+  <div class="p-4 inline-block bg-grey-light hover:bg-purple-dark">
+    <h2 class="mb-1 text-grey-darkest hover:text-red">
+      Leo duis ut diam
+    </h2>
+    <p class="text-grey-darker hover:text-white">
+      Nec ullamcorper sit amet risus nullam eget.
+    </p>
+  </div>
+  <p class="mb-4">
+    Nullam non nisi <a class="text-purple hover:text-red focus:bg-green" href="#">link to</a>.
+  </p>
+  <button class="block w-full py-2 px-4 rounded-sm mb-2 text-white bg-purple-light hover:bg-blue" tabindex="0">
+    Click Bttn
+  </button>
+
+  <button class="button">Bttn</button>
+  <button class="button button--pink">Bttn</button>
+  <button class="button button--teal">Bttn</button>
+
+  <button class="button button--pill">Bttn</button>
+  <button class="button button--pill button--pink">Bttn</button>
+  <button class="button button--pill button--teal">Bttn</button>
+
+  <button class="button button--square">Bttn</button>
+  <button class="button button--square button--pink">Bttn</button>
+  <button class="button button--square button--teal">Bttn</button>
+  
+  <div class="m-4 font-sans leading-normal">
+
+  <div class="shadow-lg rounded overflow-hidden sm:flex max-w-md">
+    <div style="background-image:url('./img/image1.jpg')"
+      class="bg-cover bg-center h-48 w-auto sm:h-auto sm:w-64"
+    ></div>
+    <!-- <img src="./img/image1.jpg" alt=""> -->
+    <div class="p-4">
+      <h2 class="font-black mb-3">Egestas sed tempus urna!</h2>
+      <p class="text-sm text-grey-dark mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ipsum debitis cum maiores, laboriosam doloribus deleniti quas voluptates labore eum.</p>
+      <button class="bg-purple hover:bg-purple-light text-white py-3 px-6 font-bold rounded-full mt-1 mb-2">Click Bttn</button>
+    </div>
+  </div>
+  </div>
+</body>
+</html>

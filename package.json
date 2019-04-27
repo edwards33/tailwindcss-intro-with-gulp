@@ -1,0 +1,17 @@
+{
+  "name": "tailwindcss-intro-with-gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edward",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^1.1.1",
+    "tailwindcss": "^0.7.4"
+  }
+}
